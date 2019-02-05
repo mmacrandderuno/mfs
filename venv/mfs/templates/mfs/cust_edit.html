@@ -1,0 +1,16 @@
+{% extends 'mfs/base.html' %}
+{% block content %}
+<div display="inline-block" align="left">
+    <a class="btn btn-info" href="{% url 'cust_detail' pk=cust.pk %}"><strong>Back</strong></a>
+    <a class="btn btn-info" href="{% url 'cust_new' %}"><strong>New Customer</strong></a>
+</div>
+<br>
+<hr width=50% align=left>
+<br>
+<h2>Edit Customer</h2>
+<form method="POST" class="item-form">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save btn btn-default">Save</button>
+</form>
+{% endblock %}
+

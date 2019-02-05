@@ -1,0 +1,41 @@
+{% extends 'mfs/base.html' %}
+
+{% block content %}
+<div display="inline-block" align="left">
+    <a class="btn btn-info" href="{% url 'cust_list' %}"><strong>Back</strong></a>
+    <a class="btn btn-info" href="{% url 'cust_edit' pk=cust.pk %}"><strong>Edit Customer</strong></a>
+    <a class="btn btn-info" href="{% url 'orders' custid=cust.pk %}"><strong>Products and Services</strong></a>
+    <a class="btn btn-info" href="{% url 'deletedorders' custid=cust.pk %}"><strong>Deleted Orders</strong></a>
+</div>
+<br>
+<hr width=50% align=left>
+<br>
+<div class="item">
+    {% if cust.custupdate_date %}
+    <div class="date">
+        <small><i>Last Changed: {{ cust.custupdate_date }}</i></small>
+    </div>
+    {% else %}
+    {% if cust.custadd_date %}
+    <div class="date">
+        <small><i>Last Changed: {{ cust.custadd_date }}</i></small>
+    </div>
+    {% endif %}
+    {% endif %}
+    <br>
+    <h2>{{ cust.lastname }},{{ cust.firstname }}</h2>
+    <p><b>Account Number:</b> {{ cust.accountno|linebreaksbr }}</p>
+    <p><b>Email:</b> {{ cust.custemail|linebreaksbr }}</p>
+    <p><b>Phone:</b> {{ cust.custphone|linebreaksbr }}</p>
+    <p><b>Organization:</b> {{ cust.custorg|linebreaksbr }}</p>
+    <p><b>Role: </b>{{ cust.custrole|linebreaksbr }}</p>
+    <p><b>Address:</b> {{ cust.address|linebreaksbr }}</p>
+    {% if cust.bldgroom %}
+    <p><b>Building and Room:</b> {{ cust.bldgroom|linebreaksbr }}</p>
+    {% endif %}
+    <p><b>City, State, ZIP</b> {{ cust.city }} {{ cust.state }}, {{ cust.zip }}</p>
+    <p><b>Notes:</b>
+        {{ cust.notes }}</p>
+</div>
+{% endblock %}
+

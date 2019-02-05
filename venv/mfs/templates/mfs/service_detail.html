@@ -1,0 +1,36 @@
+{% extends 'mfs/base.html' %}
+{% block content %}
+<div display="inline-block" align="left">
+    <a class="btn btn-primary" href="{% url 'cust_detail' pk=service.custid_id %}"><strong>Customer</strong></a>
+    <a class="btn btn-primary" href="{% url 'orders' custid=service.custid_id %}"><strong>Orders</strong></a>
+    <a class="btn btn-primary" href="{% url 'service_edit' pk=service.pk %}"><strong>Edit</strong></a>
+</div>
+<br>
+<hr width=50% align=left>
+<br>
+
+<div class="item">
+    {% if service.servupdate_date %}
+    <div class="date">
+        <small><i>Last Changed: {{ service.servupdate_date }}</i></small>
+    </div>
+    {% else %}
+    {% if service.servadd_date %}
+    <div class="date">
+        <small><i>Last Changed: {{ service.servadd_date }}</i></small>
+    </div>
+    {% endif %}
+    {% endif %}
+    <br>
+    <p><strong>Ordered By:</strong> {{ service.custid }}</p>
+    <p><strong>Item Number: </strong>{{ service.pk }}</p>
+    <p><b>Category: </b>{{ service.servicecategory|linebreaksbr }}</p>
+    <p><b>Service Location: </b>{{ service.servicelocation|linebreaksbr }}</p>
+    <p><b>Service Date: </b>{{ service.servicedate|linebreaksbr }}</p>
+    <p><b>Setup Time: </b>{{ service.setuptime|linebreaksbr }}</p>
+    <p><b>Cleanup Time: </b>{{ service.cleanuptime|linebreaksbr }}</p>
+    <p><b>Cost: </b>{{ service.cost|linebreaksbr }}</p>
+    <p>Description:
+        {{ service.servicedesc }}</p>
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'mfs/base.html' %}
+{% block content %}
+<div display="inline-block" align="left">
+    <a class="btn btn-primary" href="{% url 'cust_detail' pk=product.custid_id %}"><strong>Customer</strong></a>
+    <a class="btn btn-primary" href="{% url 'orders' custid=product.custid_id %}"><strong>Orders</strong></a>
+    <a class="btn btn-primary" href="{% url 'prod_edit' pk=product.pk %}"><strong>Edit</strong></a>
+</div>
+<br>
+<hr width=50% align=left>
+<br>
+
+<div class="item">
+    {% if product.produpdate_date %}
+    <div class="date">
+        <small><i>Last Changed: {{ product.produpdate_date }}</i></small>
+    </div>
+    {% else %}
+    {% if product.prodadd_date %}
+    <div class="date">
+        <small><i>Last Changed: {{ product.prodadd_date }}</i></small>
+    </div>
+    {% endif %}
+    {% endif %}
+    <br>
+    <p><strong>Ordered By:</strong> {{ product.custid }}</p>
+    <p><strong>Item Number: </strong>{{ product.pk }}</p>
+    <p><b>Product: </b>{{ product.product }}</p>
+    <p><b>Quantity: </b>{{ product.productquantity }}</p>
+    <p><b>Pickup Date: </b>{{ product.pickupdate }}</p>
+    {% if product.pickuptime %}
+    <p><b>Pickup Time:</b> {{ product.pickuptime }}</p>
+    {% endif %}
+    <p><b>Charges: </b>{{ product.charge }}</p>
+    <p><b>Description:</b><br>
+        {{ product.productdesc }}</p>
+</div>
+{% endblock %}

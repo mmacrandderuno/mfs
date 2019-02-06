@@ -106,7 +106,7 @@ def service_edit(request, pk):
             return redirect('service_detail', pk=service.pk)
     else:
         form = ServiceForm(instance=service)
-    return render(request, 'mfs/service_edit.html', {'form': form, 'pk':pk})
+    return render(request, 'mfs/service_edit.html', {'form': form, 'service':service})
 
 def orders(request, custid):
     products = Product.objects.filter(custid_id=custid, productdelete = False).order_by('pickupdate')

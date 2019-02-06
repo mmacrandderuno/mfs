@@ -116,7 +116,7 @@ def orders(request, custid):
 def deletedorders(request, custid):
     products = Product.objects.filter(custid=custid, productdelete = True).order_by('pickupdate')
     services = Service.objects.filter(custid=custid, servicedelete = True).order_by('servicedate')
-    return render(request, 'mfs/orders.html', ({'services': services , 'products': products, 'custid':custid}))
+    return render(request, 'mfs/deletedorders.html', ({'services': services , 'products': products, 'custid':custid}))
 
 def prod_detail(request, pk):
     product = get_object_or_404(Product, pk=pk)

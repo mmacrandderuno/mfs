@@ -89,7 +89,7 @@ def prod_edit(request, pk):
             product.produpdatedby = request.user
             product.produpdate_date = timezone.now()
             product.save()
-            return redirect('product_detail', pk=product.pk)
+            return redirect('product_detail', pk=pk)
     else:
         form = ProdForm(instance=product)
     return render(request, 'mfs/prod_edit.html', {'form': form, 'pk':pk})

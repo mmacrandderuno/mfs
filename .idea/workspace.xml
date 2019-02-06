@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/venv/mfs/templates/mfs/orders.html" description="{% block content %}&#10;&lt;div display=&quot;inline-block&quot; al..." line="1" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="54ebc3a8-cf24-453e-a43a-80255027151e" name="Default Changelist" comment="" />
+    <list default="true" id="54ebc3a8-cf24-453e-a43a-80255027151e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/venv/mavfood/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/venv/mavfood/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,16 +12,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/mavfood/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/mavfood/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -32,9 +31,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/mavfood/manage.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/mavfood/mysite/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="-1632">
               <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
             </state>
           </provider>
@@ -107,9 +111,9 @@
         <option value="$PROJECT_DIR$/venv/mfs/urls.py" />
         <option value="$PROJECT_DIR$/venv/mfs/templates/registration/password_reset_complete.html" />
         <option value="$PROJECT_DIR$/venv/mfs/templates/mfs/base.html" />
-        <option value="$PROJECT_DIR$/venv/mavfood/.gitignore" />
         <option value="$PROJECT_DIR$/venv/mavfood/requirements.txt" />
         <option value="$PROJECT_DIR$/venv/mavfood/mysite/settings.py" />
+        <option value="$PROJECT_DIR$/venv/mavfood/.gitignore" />
       </list>
     </option>
   </component>
@@ -137,6 +141,34 @@
               <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
               <item name="MaverickFoodService" type="462c0819:PsiDirectoryNode" />
               <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MaverickFoodService" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="mavfood" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MaverickFoodService" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="mavfood" type="462c0819:PsiDirectoryNode" />
+              <item name="mfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MaverickFoodService" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="mavfood" type="462c0819:PsiDirectoryNode" />
+              <item name="mfs" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MaverickFoodService" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="mavfood" type="462c0819:PsiDirectoryNode" />
+              <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
@@ -246,11 +278,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24960254" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -267,9 +300,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/mfs/static/css/mfs.css/mfs.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/mfs/templates/prod_edit.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -586,20 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/mavfood/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/mavfood/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -610,6 +626,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/mavfood/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/mavfood/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1632">
+          <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/mavfood/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>

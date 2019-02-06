@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="54ebc3a8-cf24-453e-a43a-80255027151e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/mavfood/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/venv/mavfood/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/mavfood/mfs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/mavfood/mfs/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/venv/mavfood/mfs/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1326">
+            <state relative-caret-position="272">
+              <caret line="94" column="81" selection-start-line="94" selection-start-column="81" selection-end-line="94" selection-end-column="81" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -126,14 +127,15 @@
         <option value="$PROJECT_DIR$/venv/mavfood/requirements.txt" />
         <option value="$PROJECT_DIR$/venv/mavfood/mysite/settings.py" />
         <option value="$PROJECT_DIR$/venv/mavfood/.gitignore" />
+        <option value="$PROJECT_DIR$/venv/mavfood/mfs/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
-    <option name="width" value="981" />
-    <option name="height" value="1032" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -290,12 +292,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -657,7 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/mavfood/mfs/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1326">
+        <state relative-caret-position="272">
+          <caret line="94" column="81" selection-start-line="94" selection-start-column="81" selection-end-line="94" selection-end-column="81" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>

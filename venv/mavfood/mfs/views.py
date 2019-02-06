@@ -89,10 +89,10 @@ def prod_edit(request, pk):
             product.produpdatedby = request.user
             product.produpdate_date = timezone.now()
             product.save()
-            return redirect('product_detail', pk=pk)
+            return redirect('product_detail', pk=product.pk)
     else:
         form = ProdForm(instance=product)
-    return render(request, 'mfs/prod_edit.html', {'form': form, 'pk':pk})
+    return render(request, 'mfs/prod_edit.html', {'form': form, 'product':product})
 
 def service_edit(request, pk):
     service = get_object_or_404(Service, pk=pk)

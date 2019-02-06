@@ -4,10 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/venv/mfs/templates/mfs/orders.html" description="{% block content %}&#10;&lt;div display=&quot;inline-block&quot; al..." line="1" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="54ebc3a8-cf24-453e-a43a-80255027151e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/mavfood/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/mavfood/mysite/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="54ebc3a8-cf24-453e-a43a-80255027151e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,19 +140,6 @@
             </path>
             <path>
               <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaverickFoodService" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="mavfood" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MaverickFoodService" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-              <item name="mavfood" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MaverickFoodService" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -283,16 +267,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="500" lean-forward="true" selection-start-line="499" selection-start-column="12" selection-end-line="500" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/mfs/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/mfs/static/css/mfs.css/mfs.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -625,6 +599,12 @@
           <caret line="27" column="65" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/pip-selfcheck.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/mavfood/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
